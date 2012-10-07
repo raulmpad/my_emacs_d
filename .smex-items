@@ -1,0 +1,23 @@
+
+;; ----- smex-history -----
+(
+ ns-toggle-fullscreen
+ eval-buffer
+ shell
+ checkdoc
+ 2C-split
+ customize-themes
+ package-install
+)
+
+;; ----- smex-data -----
+(
+ (ns-toggle-fullscreen . 10)
+ (package-install . 2)
+ (eval-buffer . 15)
+ (menu-bar-mode . 2)
+ (customize-themes . 1)
+ (shell . 12)
+ (2C-split . 1)
+ (checkdoc . 1)
+)
