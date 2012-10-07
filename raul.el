@@ -34,12 +34,23 @@
 
 ;; yasnippets
 (add-to-list 'load-path
-              "~y/.emacs.d/plugins/yasnippet")
+              "~/.emacs.d/plugins/yasnippet")
 (require 'yasnippet)
 (yas-global-mode 1)
+
+;;rails-reloaded
+(setq load-path (cons (expand-file-name "~/.emacs.d/rails-reloaded") load-path))
+  (require 'rails-autoload)
 
 ;; Switching windows easily
 (global-set-key [s-left] 'windmove-left) 
 (global-set-key [s-right] 'windmove-right) 
 (global-set-key [s-up] 'windmove-up) 
 (global-set-key [s-down] 'windmove-down)
+
+(require 'rvm)
+(rvm-use-default) ;; use rvm's default ruby for the current Emacs session
+
+;; font size
+(set-face-attribute 'default nil :height 160)
+

@@ -1,23 +1,28 @@
 
 ;; ----- smex-history -----
 (
- ns-toggle-fullscreen
  eval-buffer
- shell
- checkdoc
- 2C-split
- customize-themes
+ ns-toggle-fullscreen
+ find-file
+ rgrep
+ package-list-packages
  package-install
+ list-packages
 )
 
 ;; ----- smex-data -----
 (
- (ns-toggle-fullscreen . 10)
- (package-install . 2)
- (eval-buffer . 15)
+ (ns-toggle-fullscreen . 18)
+ (package-install . 3)
+ (eval-buffer . 26)
  (menu-bar-mode . 2)
  (customize-themes . 1)
- (shell . 12)
+ (shell . 17)
  (2C-split . 1)
  (checkdoc . 1)
+ (rvm-use . 2)
+ (rgrep . 8)
+ (list-packages . 1)
+ (package-list-packages . 2)
+ (find-file . 2)
 )
