@@ -1,0 +1,41 @@
+l
+ls -la
+cd kantox-flow/
+l
+gs
+exit
+..
+..
+l
+alias l='ls -la'
+l
+alias l 'ls -la'
+l
+alias
+..
+clear
+alias clear cls
+clear
+cls
+cls
+git flow
+git 
+git -v
+git --version
+which git
+exit
+cd elpa/
+l
+cd color-theme-6.6
+cd color-theme-6.6.0/
+pwd
+l
+cd
+cd .emacs.d_old/
+cd
+l
+cd .emacs.d/
+l
+cd elpa/
+l
+mv color-theme-6.5.5/ color-theme-6.5.5_old

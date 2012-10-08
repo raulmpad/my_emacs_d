@@ -1,35 +1,35 @@
 
 ;; ----- smex-history -----
 (
- rsense-complete
- ac-complete-rsense
- auto-complete
+ load-theme
+ ns-toggle-fullscreen
+ package-install
+ eshell
  eval-buffer
- load-file
  rgrep
- rsense-version
+ dbx
 )
 
 ;; ----- smex-data -----
 (
- (ns-toggle-fullscreen . 27)
- (package-install . 4)
- (eval-buffer . 37)
+ (ns-toggle-fullscreen . 39)
+ (package-install . 17)
+ (eval-buffer . 95)
  (menu-bar-mode . 2)
- (customize-themes . 1)
- (shell . 30)
+ (customize-themes . 2)
+ (shell . 31)
  (2C-split . 1)
  (checkdoc . 1)
  (rvm-use . 2)
- (rgrep . 11)
+ (rgrep . 23)
  (list-packages . 1)
- (package-list-packages . 2)
- (find-file . 2)
+ (package-list-packages . 3)
+ (find-file . 3)
  (server-start . 2)
  (rinari-web-server . 1)
  (column-number-mode . 4)
  (line-number-mode . 2)
- (linum-mode . 4)
+ (linum-mode . 6)
  (speedbar . 2)
  (load-file . 4)
  (rsense-version . 3)
@@ -39,4 +39,14 @@
  (ruby-mode . 3)
  (ac-complete-rsense . 7)
  (auto-complete . 1)
+ (emacs-uptime . 1)
+ (eshell . 5)
+ (enable-theme . 1)
+ (ffip . 4)
+ (rinari-find-file-in-project . 2)
+ (forms-find-file . 1)
+ (haml-mode . 2)
+ (insert-euro . 3)
+ (load-theme . 12)
+ (dbx . 1)
 )
