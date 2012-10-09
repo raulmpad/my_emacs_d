@@ -1,35 +1,35 @@
 
 ;; ----- smex-history -----
 (
- load-theme
  ns-toggle-fullscreen
- package-install
- eshell
  eval-buffer
+ previous-buffer
+ package-install
+ linum-mode
  rgrep
- dbx
+ shell
 )
 
 ;; ----- smex-data -----
 (
- (ns-toggle-fullscreen . 39)
- (package-install . 17)
- (eval-buffer . 95)
+ (ns-toggle-fullscreen . 52)
+ (package-install . 20)
+ (eval-buffer . 103)
  (menu-bar-mode . 2)
  (customize-themes . 2)
- (shell . 31)
+ (shell . 41)
  (2C-split . 1)
  (checkdoc . 1)
  (rvm-use . 2)
- (rgrep . 23)
+ (rgrep . 32)
  (list-packages . 1)
  (package-list-packages . 3)
  (find-file . 3)
  (server-start . 2)
  (rinari-web-server . 1)
  (column-number-mode . 4)
- (line-number-mode . 2)
- (linum-mode . 6)
+ (line-number-mode . 3)
+ (linum-mode . 11)
  (speedbar . 2)
  (load-file . 4)
  (rsense-version . 3)
@@ -40,13 +40,23 @@
  (ac-complete-rsense . 7)
  (auto-complete . 1)
  (emacs-uptime . 1)
- (eshell . 5)
+ (eshell . 8)
  (enable-theme . 1)
  (ffip . 4)
- (rinari-find-file-in-project . 2)
+ (rinari-find-file-in-project . 6)
  (forms-find-file . 1)
  (haml-mode . 2)
  (insert-euro . 3)
  (load-theme . 12)
  (dbx . 1)
+ (rvm-activate-corresponding-ruby . 1)
+ (eval-defun . 2)
+ (describe-theme . 1)
+ (hl-line-mode . 2)
+ (grep . 2)
+ (previous-buffer . 3)
+ (diff . 1)
+ (goto-line . 2)
+ (dynamic-completion-mode . 1)
+ (find-file-in-project . 1)
 )

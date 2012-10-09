@@ -43,3 +43,10 @@
 
 (require 'rvm)
 (rvm-use-default) ;; use rvm's default ruby for the current Emacs session
+
+(add-hook 'rinari-minor-mode-hook 'rvm-activate-corresponding-ruby)
+
+(remove-hook 'prog-mode-hook 'esk-turn-on-hl-line-mode)
+(remove-hook 'prog-mode-hook 'esk-turn-on-idle-highlight-mode)
+
+(autoload 'project-mode "project-mode" "Project Mode" t)

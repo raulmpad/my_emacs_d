@@ -39,3 +39,32 @@ l
 cd elpa/
 l
 mv color-theme-6.5.5/ color-theme-6.5.5_old
+cd
+cd kantox-flow/
+clear
+cd
+cd kantox-flow/
+alias
+l
+emacs config.ru 
+open config.ru 
+rake db:migrate
+gem list
+cd
+cd kantox-flow/
+l log/
+cd log/
+l
+rm test.log 
+touch test.log
+l
+tail -fn 200 test.log 
+l
+l
+exit
+l
+rails g
+rails g model
+zeus start
+zeus start
+exit
