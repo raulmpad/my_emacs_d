@@ -63,3 +63,10 @@
   (interactive)
   (ucs-insert #x5d))
 (global-set-key (kbd "M-+") 'insert-right_square)
+
+
+(defun current-buffer-name ()
+  "Retrieve current buffer name"
+  (interactive)
+  (concat default-directory (buffer-name)))
+(global-set-key (kbd "C-n") 'current-buffer-name)

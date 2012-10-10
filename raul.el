@@ -29,3 +29,6 @@
 ;;     (color-theme-initialize)
 ;;     (color-theme-hober)))
 
+;; helm
+(add-to-list 'load-path "~/.dotfiles/emacs/plugins/helm")
+(require 'helm-config)
