@@ -1,27 +1,27 @@
 
 ;; ----- smex-history -----
 (
- eval-expression
  eval-buffer
- buffer-menu
- rspec-verify-single
+ eval-expression
+ query-replace
+ rgrep
  ns-toggle-fullscreen
- revert-buffer
- linum-mode
+ shell
+ package-install
 )
 
 ;; ----- smex-data -----
 (
- (ns-toggle-fullscreen . 71)
+ (ns-toggle-fullscreen . 74)
  (package-install . 23)
- (eval-buffer . 131)
+ (eval-buffer . 133)
  (menu-bar-mode . 2)
  (customize-themes . 2)
  (shell . 43)
  (2C-split . 1)
  (checkdoc . 1)
  (rvm-use . 2)
- (rgrep . 50)
+ (rgrep . 54)
  (list-packages . 1)
  (package-list-packages . 3)
  (find-file . 3)
@@ -47,7 +47,7 @@
  (forms-find-file . 1)
  (haml-mode . 2)
  (insert-euro . 3)
- (load-theme . 19)
+ (load-theme . 20)
  (dbx . 1)
  (rvm-activate-corresponding-ruby . 2)
  (eval-defun . 2)
@@ -76,10 +76,10 @@
  (helm-info-find . 1)
  (hexl-find-file . 3)
  (rinari-find-mailer . 3)
- (rinari-find-rspec . 1)
+ (rinari-find-rspec . 3)
  (rspec-verify . 3)
  (customize-group . 3)
- (rspec-verify-single . 30)
+ (rspec-verify-single . 54)
  (windmove-default-keybindings . 2)
  (rspec-mode . 8)
  (projectile-global-mode . 1)
@@ -92,9 +92,18 @@
  (rinari-find-test . 1)
  (textmate-mode . 4)
  (write-region . 1)
- (rhtml-mode . 1)
+ (rhtml-mode . 3)
  (rspec-verify-all . 1)
  (revert-buffer . 1)
  (buffer-menu . 1)
- (eval-expression . 6)
+ (eval-expression . 10)
+ (ac-expand . 1)
+ (ac-next . 4)
+ (ac-complete . 1)
+ (ac-start . 6)
+ (compilation-shell-minor-mode . 1)
+ (compilation-mode . 1)
+ (rails/compilation-mode . 1)
+ (compile . 1)
+ (query-replace . 1)
 )

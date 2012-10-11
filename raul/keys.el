@@ -14,6 +14,7 @@
 (global-set-key [s-right] 'windmove-right) 
 (global-set-key [s-up] 'windmove-up) 
 (global-set-key [s-down] 'windmove-down)
+;;(global-set-key [s-r] 'query-replace)
 
 
 (defun insert-antidash ()
